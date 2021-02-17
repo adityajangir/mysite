@@ -1,0 +1,125 @@
+
+body{
+  background-color: #726a95;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.first-container{
+  display: block;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  background-color: #bbf1fa;
+}
+h1{
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  padding-top: 100px;
+  padding-bottom: 0;
+  line-height: 2;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.top-cloud{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 150px;
+}
+.bottom-cloud{
+  display: inline-block;
+  position: absolute;
+}
+.mountain{
+  position: relative;
+  display: inline-block;
+
+}
+.pro{
+  text-decoration: underline;
+}
+.middle-container{
+  width: 50%;
+  margin: 0 auto 100px auto;
+}
+.skill-row{
+  text-align: left;
+  line-height: 2;
+}
+.code-image{
+  width: 25%;
+  float: left;
+  margin-right: 100px;
+  height: 150px;
+}
+.chilli-image{
+  width: 25%;
+  float: right;
+  margin-left: 100px;
+}
+.pic{
+  width: 250px;
+}
+hr{
+  border-width: 10px 0 0 0;
+  border-style: dotted;
+  border-color: #EAF6F6;
+  width: 25%
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+}
+.ci{
+  color: #EAF6F6;
+}
+.btn{
+   background: #11999E;
+   background-image: -webkit-linear-gradient(top, #11999E, #1E62D0);
+   background-image: -moz-linear-gradient(top, #11999E, #1E62D0);
+   background-image: -ms-linear-gradient(top, #11999E, #1E62D0);
+   background-image: -o-linear-gradient(top, #11999E, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #11999E, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 46px;
+   font-weight: 100;
+   padding: 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  margin: auto 20px;
+}
+a:hover{
+  color: #FFFFFF;
+}
